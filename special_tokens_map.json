@@ -1,6 +1,12 @@
 {
   "additional_special_tokens": [
-    "<sc>"
+    "<sc>",
+    "<bos_prompt>",
+    "<eos_prompt>",
+    "<bos_speech>",
+    "<eos_speech>",
+    "<bos_response>",
+    "<eos_response>"
   ],
   "bos_token": {
     "content": "<|begin_of_text|>",
@@ -10,7 +16,7 @@
     "single_word": false
   },
   "eos_token": {
-    "content": "<|end_of_text|>",
+    "content": "<|eot_id|>",
     "lstrip": false,
     "normalized": false,
     "rstrip": false,
